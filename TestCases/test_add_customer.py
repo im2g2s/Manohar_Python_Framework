@@ -30,7 +30,7 @@ class Test_003_AddCustomer:
     @pytest.mark.sanity
     @pytest.mark.regression
     def test_addCustomer(self, setup):
-        self.logger.info("************* Test_003_AddCustomer **********")
+        self.logger.info("************* Test_003_AddCustomer ***********")
         self.driver = setup
         self.driver.get(self.BaseURl)
 
